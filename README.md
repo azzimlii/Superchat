@@ -23,8 +23,8 @@ SuperChat üç əsas xidməti bir platformada birləşdirən çoxdilli chatbot l
 ## 2. Layihənin inkişaf mərhələləri
 
 ### 1. Real API adapterləri
-- Aviasales.
-- Ümumi e-commerce inteqrasiyası (DummyJSON hazırdır).
+- Aviasales.(travelpayouts api)
+- Ümumi e-commerce inteqrasiyası (Simlir).
 - CinemaPlus (fərziyyə əsaslı inteqrasiya).
 - Claude Vision.
 
