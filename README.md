@@ -47,17 +47,6 @@ Chatbot baldan asılı olaraq belə davranır:
 - **İki namizədin balları bir-birinə yaxındırsa:** İstifadəçidən hansını nəzərdə tutduğunu soruşur.
 - **0.40-dan aşağı:** Axtarış aparmır və məhsulun nə olduğunu dəqiqləşdirməyi xahiş edir.
 
-Qeyd: Bu bal modelin öz qiymətləndirməsidir, kalibrə olunmuş ehtimal deyil. Hədlər `.env` faylındakı `VS_*` dəyişənləri vasitəsilə tənzimlənə bilər.
-
-### 5. Real API problemlərinin aşkarlanması
-
-- Serverin qaytardığı xəta səbəbi artıq görünür (məsələn, `HTTP 401: invalid x-api-key`).
-- `python diagnose.py` diaqnostika əmri əlavə edilib.
-- `/api/health` endpoint-i yaradılıb.
-- `.env` faylının oxunması möhkəmləndirilib (Windows BOM və `.env.txt` problemləri).
-- Server standart olaraq yalnız `127.0.0.1` ünvanında işləyir.
-- Şəkil sorğularına limit tətbiq olunur.
-
 ---
 
 ### `.env` faylının konfiqurasiyası
