@@ -56,9 +56,9 @@ Chatbot baldan asılı olaraq belə davranır:
 Əsas dəyişənlər:
 
 ```env
-AVIASALES_TOKEN=...             # Uçuşlar
+AVIASALES_TOKEN=... travelpayouts api key             # Uçuşlar
 ANTHROPIC_API_KEY=...           # Şəkil axtarışı
-SUPERCHAT_PRODUCTS=dummyjson    # Alış-veriş
+SUPERCHAT_PRODUCTS=Simlir api key    # Alış-veriş
 SUPERCHAT_DEBUG=1               # Xətanın real səbəbini çatda göstərir
 ```
 
